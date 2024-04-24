@@ -12,25 +12,34 @@
 </head>
 
 <body>
-    <div class="container d-flex align-items-center">
-        <div class="row shadow-sm  rounded-3 p-3">
-            <div class="col-md-6">
-                <div class="d-flex justify-content-center">
-                    <img src="{{ asset('img/login.jpg') }}" alt="Image Login" class="w-75" />
-                </div>
+    <div class="container d-lg-flex align-items-lg-center justify-content-lg-center">
+        <div class="row shadow-sm ">
+            <div class="col-md-6 bg-secondary d-flex justify-content-center align-items-center">
+                <img src="{{ asset('img/login.png') }}" alt="Image Login" class="w-100" />
             </div>
-            <div class="col-md-6 align-self-center">
+            <div class="col-md-6 align-self-center p-5">
                 <h3 class="fw-bold">LOGIN, AFEKSI INDONESIA</h3>
                 <p class="fw-medium">Enim pariatur do fugiat occaecat enim.</p>
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Email address</label>
                     <input type="email" class="form-control" id="email" aria-describedby="Masukkan Email">
                 </div>
-                <div class="mb-4">
+                <div class="mb-2">
                     <label for="exampleInputEmail1" class="form-label">Password</label>
                     <input type="password" class="form-control" id="password">
                 </div>
-                <button type="submit" class="btn btn-success">Submit</button>
+                <div class="mb-4">
+                    <a href="#" class="text-primary fs-6 text-decoration-none">Forgot Password ?</a>
+                </div>
+                <div class="mb-5 gap-2 d-md-flex">
+                    <button type="submit" class="btn btn-success">Submit</button>
+                    <button type="submit" class="btn btn-white border border-black">Batal</button>
+                </div>
+
+                <div>
+                    <p class="text-center mb-2 fw-light">Membuat akun dibawah ini</p>
+                    <a href="#" type="submit" class="btn w-100 border border-black">Create Account</a>
+                </div>
             </div>
         </div>
     </div>

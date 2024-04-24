@@ -1,8 +1,6 @@
 body {
-    width: 100vw; /* Lebar penuh sesuai dengan viewport */
-    height: 100vh; /* Tinggi penuh sesuai dengan viewport */
-    margin: 0; /* Menghapus margin default pada body */
-    padding: 0; /* Menghapus padding default pada body */
+    width: 100vw;
+    height: 100vh;
 }
 .container {
     width: 100%;
