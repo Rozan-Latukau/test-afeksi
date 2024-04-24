@@ -14,6 +14,8 @@ use App\Http\Controllers\LoginController;
 |
 */
 
-Route::get('/', [LoginController::class, 'index']);
 
+// Login dan SignUp Routes
+Route::get('/', [LoginController::class, 'index']);
+Route::get('/signUp', [LoginController::class, 'showSignUp']) -> name('signUp');
 

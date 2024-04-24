@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ asset('css/all.css') }}" />
-    <title>Login</title>
+    <title>SignUp</title>
 </head>
 
 <body>
@@ -18,8 +18,12 @@
                 <img src="{{ asset('img/login.png') }}" alt="Image Login" class="w-100" />
             </div>
             <div class="col-md-6 align-self-center p-5">
-                <h3 class="fw-bold">LOGIN, AFEKSI INDONESIA</h3>
+                <h3 class="fw-bold">SignUp, AFEKSI INDONESIA</h3>
                 <p class="fw-medium">Enim pariatur do fugiat occaecat enim.</p>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">UserName</label>
+                    <input type="email" class="form-control" id="name">
+                </div>
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Email address</label>
                     <input type="email" class="form-control" id="email" aria-describedby="Masukkan Email">
@@ -28,18 +32,13 @@
                     <label for="exampleInputEmail1" class="form-label">Password</label>
                     <input type="password" class="form-control" id="password">
                 </div>
-                <div class="mb-4">
-                    <a href="#" class="text-primary fs-6 text-decoration-none">Forgot Password ?</a>
+                <div class="mb-2">
+                    <label for="exampleInputEmail1" class="form-label">Konfirmasi Password</label>
+                    <input type="password" class="form-control" id="konfirmasipass">
                 </div>
                 <div class="mb-5 gap-2 d-md-flex">
                     <button type="submit" class="btn btn-success">Submit</button>
                     <button type="submit" class="btn btn-white border border-black">Batal</button>
-                </div>
-
-                <div>
-                    <p class="text-center mb-2 fw-light">Membuat akun dibawah ini</p>
-                    <a href="{{ route('signUp') }}" type="submit" class="btn w-100 border border-black">Create
-                        Account</a>
                 </div>
             </div>
         </div>
