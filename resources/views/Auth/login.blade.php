@@ -21,7 +21,7 @@
             </div>
             <div class="col-md-6 align-self-center">
                 <h3 class="fw-bold">LOGIN, AFEKSI INDONESIA</h3>
-                <p>Enim pariatur do fugiat occaecat enim.</p>
+                <p class="fw-medium">Enim pariatur do fugiat occaecat enim.</p>
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Email address</label>
                     <input type="email" class="form-control" id="email" aria-describedby="Masukkan Email">
