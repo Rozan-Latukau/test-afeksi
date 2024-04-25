@@ -13,7 +13,7 @@
 
 <body>
     <div class="container">
-        <div class="row shadow-sm h-100 m-5">
+        <div class="row shadow-sm h-100 m-lg-5 m-md-0">
             <div class="col-md-6 bg-secondary d-flex justify-content-center align-items-center">
                 <img src="{{ asset('img/login.png') }}" alt="Image Login" class="w-100" />
             </div>
