@@ -17,5 +17,5 @@ use App\Http\Controllers\LoginController;
 
 // Login dan SignUp Routes
 Route::get('/', [LoginController::class, 'index']) -> name('login');
-Route::get('/signUp', [LoginController::class, 'showSignUp']) -> name('signUp');
+Route::get('/daftar', [LoginController::class, 'daftar']) -> name('daftar');
 

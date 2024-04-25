@@ -38,7 +38,7 @@
 
                 <div>
                     <p class="text-center mb-2 fw-light">Membuat akun dibawah ini</p>
-                    <a href="{{ route('signUp') }}" type="submit" class="btn w-100 border border-black">Create
+                    <a href="{{ route('daftar') }}" type="submit" class="btn w-100 border border-black">Create
                         Account</a>
                 </div>
             </div>

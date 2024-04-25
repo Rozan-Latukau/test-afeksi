@@ -9,7 +9,7 @@ class LoginController extends Controller
     public function index() {
         return view ('Auth.login');
     }
-    public function showSignUp() {
-        return view ('Auth.signUp');
+    public function daftar() {
+        return view ('Auth.daftar');
     }
 }
