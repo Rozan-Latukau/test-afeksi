@@ -12,8 +12,8 @@
 </head>
 
 <body>
-    <div class="container d-lg-flex align-items-lg-center justify-content-lg-center">
-        <div class="row shadow-sm ">
+    <div class="container">
+        <div class="row h-100 shadow-sm ">
             <div class="col-md-6 bg-secondary d-flex justify-content-center align-items-center">
                 <img src="{{ asset('img/login.png') }}" alt="Image Login" class="w-100" />
             </div>
@@ -28,17 +28,20 @@
                     <label for="exampleInputEmail1" class="form-label">Email address</label>
                     <input type="email" class="form-control" id="email" aria-describedby="Masukkan Email">
                 </div>
-                <div class="mb-2">
+                <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Password</label>
                     <input type="password" class="form-control" id="password">
                 </div>
-                <div class="mb-2">
+                <div class="mb-4">
                     <label for="exampleInputEmail1" class="form-label">Konfirmasi Password</label>
                     <input type="password" class="form-control" id="konfirmasipass">
                 </div>
                 <div class="mb-5 gap-2 d-md-flex">
                     <button type="submit" class="btn btn-success">Submit</button>
                     <button type="submit" class="btn btn-white border border-black">Batal</button>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <a href="{{ route('login') }}" class="text-primary text-decoration-none">Kembali ke Login ?</a>
                 </div>
             </div>
         </div>

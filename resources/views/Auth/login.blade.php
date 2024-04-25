@@ -12,8 +12,8 @@
 </head>
 
 <body>
-    <div class="container d-lg-flex align-items-lg-center justify-content-lg-center">
-        <div class="row shadow-sm ">
+    <div class="container">
+        <div class="row h-100 shadow-sm ">
             <div class="col-md-6 bg-secondary d-flex justify-content-center align-items-center">
                 <img src="{{ asset('img/login.png') }}" alt="Image Login" class="w-100" />
             </div>
